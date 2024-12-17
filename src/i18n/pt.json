@@ -1,0 +1,101 @@
+{
+  "buttons": {
+    "menuButton": "Cárdapio",
+    "cartButton": "Carrinho"
+  },
+
+  "modal": {
+    "modalContact": {
+      "title": "Entrar em contacto"
+    },
+    "modalTerms": {
+      "title": "Termos de uso e políticas de privacidade"
+    },
+    "modalLanguage": {
+      "umbundu": "Umbundu",
+      "kimbundo": "Kimbundu",
+      "portugues": "Português",
+      "ingles": "Inglês",
+      "frances": "Francês",
+      "chines": "Chinês",
+      "russo": "Russo"
+    },
+    "modalNotification": {
+      "title": ""
+    },
+    "modalOrderDetail": {
+      "title": ""
+    },
+    "modalPaymentMethod": {
+      "title": ""
+    },
+    "modalProfile": {
+      "title": ""
+    },
+    "modalSearchBox": {
+      "h2": "Categoria",
+      "title": "Escolher categoria",
+      "category1": "Menta",
+      "category2": "Chocolate",
+      "category3": "Morango"
+    },
+    "Searchbox": "Categoria"
+  },
+
+  "blogpage": {
+    "h2": "Direção Executiva",
+    "par1": "Olá! Sou o Cunha Shombossi, a mente e o coração por trás da Geladaria Italala. Minha paixão por criar sabores únicos e oferecer momentos doces para as pessoas começou há muitos anos, quando descobri a magia que um simples sorvete pode trazer para o dia de alguém.",
+    "par2": "Na Geladaria Itala, usamos apenas ingredientes frescos e de alta qualidade. Todos os nossos sorvetes são preparados com muito cuidado e amor, para garantir uma explosão de sabores em cada mordida. Valorizamos o processo artesanal, e cada detalhe é pensado para oferecer a melhor experiência aos nossos clientes.",
+    "par3": "Na Italala, você encontrará um ambiente familiar e descontraído, perfeito para saborear um delicioso sorvete em boa companhia. Além dos nossos sabores tradicionais, oferecemos opções veganas e sem lactose, para que todos possam aproveitar essa experiência. Acompanhe nossas redes sociais e fique por dentro das nossas promoções e novidades, Visite-nos ja, ou faça sua encomenda por aqui!",
+    "h3": "Depoimentos",
+    "dep1": "O melhor sorvete que já provei! Sabores incríveis e textura perfeita. Já virei cliente fiel",
+    "dep2": "O melhor sorvete que já provei! Sabores incríveis e textura perfeita. Já virei cliente fiel",
+    "dep3": "O melhor sorvete que já provei! Sabores incríveis e textura perfeita. Já virei cliente fiel",
+    "dep4": "O melhor sorvete que já provei! Sabores incríveis e textura perfeita. Já virei cliente fiel"
+  },
+
+  "homepage": {
+    "h3modal": "Selecionar Idioma",
+    "gallery": "Políticas e Termos",
+    "description": "Faça sua encomenda de qualquer lugar e a qualquer hora!",
+    "buttonBlog": "Blogue",
+    "buttonContact": "Contactos",
+    "buttonMenu": "Cárdapio",
+    "buttonCart": "Carrinho",
+    "terms": "Ao fazer suas encomendas pela itala virtual você automaticamente concorda com nossos termos de uso e políticas de privacidade.",
+    "footer": "Programado por Suélio Armando JS eXtreme Programming"
+  },
+
+  "menupage": {
+
+  },
+
+  "orderpage": {
+    "h3menu": "Carrinho de Compras",
+    "h2order": "Detalhes Encomenda",
+    "sabores": "Sabores",
+    "pagamento": "Pagamento",
+    "adicionar": "Adicionar Sabores",
+    "remover": "Remover Sabores",
+    "h2encomendar": "Encomendar - Agora",
+    "h2selectMethod": "Selecionar método de pagamento",
+    "money": "Dinheiro em mão",
+    "express": "Multicaixa Express",
+    "tpa": "Transfência Bancária",
+    "placeholderName": "Nome",
+    "placeholderNumber": "Número(+244)",
+    "placeholderPaymentMethod": "Método de Pagamento",
+    "placeholderCityOrNeighborhood": "Cidade ou Bairro",
+    "placeholderLandmark": "Ponto de Referência",
+    "send": "Enviar",
+    "reset": "Limpar",
+    "modalSend": "Mensagem enviada com sucesso",
+    "modalSendh3": "Nota Importante:",
+    "modalSendP1": "Caso seu método de pagamento seja Multicaixa Express ou Transfêrencia, a encomenda será entregue apenas, depois do envio do comprovativo de pagamento, que deve ser enviado pelo whatsapp ou email da geladaria.",
+    "modalSendP2": "Escolha uma das opções abaixo:",
+    "modalSendButton1": "Enviar por email",
+    "modalSendButton2": "Enviar pelo whatsapp",
+    "modalSendButton3": "Escolhe dinheiro em mão",
+    "validationAllFields": "Por favor preencha todos os campos"
+  }
+}

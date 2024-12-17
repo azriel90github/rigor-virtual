@@ -1,0 +1,95 @@
+{
+  "buttons": {
+    "menuButton": "Kalunga",
+    "cartButton": "Kalunga ia ku sumba"
+  },
+
+  "modal": {
+    "modalContact": {
+      "title": "kutubha"
+    },
+    "modalGallery": {
+      "title": "Foto"
+    },
+    "modalLanguage": {
+      "umbundu": "Umbundu",
+      "kimbundo": "Kimbundu",
+      "portugues": "Portugal",
+      "ingles": "Ingleza",
+      "frances": "Francesa",
+      "chines": "Txina",
+      "russo": "Rúxia"
+
+    },
+    "modalNotification": {
+      "title": ""
+    },
+    "modalOrderDetail": {
+      "title": ""
+    },
+    "modalPaymentMethod": {
+      "title": ""
+    },
+    "modalProfile": {
+      "title": ""
+    },
+    "modalSearchBox": {
+      "h2": "Kimbandu",
+      "title": "Sanga kimbandu",
+      "category1": "Menta",
+      "category2": "Cokolate",
+      "category3": "Morangu"
+    },
+    "Searchbox": "Ontu"
+  },
+
+  "blogpage": {
+    "h2": "Kuna Kisalu",
+    "par1": "Moninga! Ngué Cunha Shombossi, nzinga yama na mutima wa Geladaria Italala. Voké yama ku kuvala mikese miyele yama kikondi keti, ne kotamba ntoto yama kutenda mbote mu bantu, voyenda puwa likisi kuvuaká vose wa esalu ya ice cream.",
+    "par2": "Na Geladaria Italala, tukamusa ngatu yingazi ya mbandu, ne nsinga yama kitina. Kizindula ki ice cream kisalakana comu kutenda vose ki amoru ne carimbo, ku kumbi kutalanguza zulu zimbote na kusa buho yama kupwete ki bunyomo. Mbotu kutumbula kisalu yama artisanal, kisalakana miimbo yamekusu na kavatu mu mudidi wa kisalu na kuvalula kisalu.",
+    "par3": "Na Italala, va umetu nkenge ya kimwendo ne nfela, kutenda ka ice cream no luyangu malu na kimweto. Mbozi, kenge ndete ya mambote, tukenda i options veganas ne sem lactose, kutu ndete ngona vose vutamba mutumbu ka ice cream.  Batyama nasu ku mga social media na kumbiaka vose zvandimvuka epe. Tefwe lelemela nasu!",
+    "h3": "Mikambo",
+    "dep1": "Ice cream kinshi kisangu! Sabores miene ne texuturas kisalu. Kisendi ke ki cliente fiel.",
+    "dep2": "Ice cream kinshi kisangu! Sabores miene ne texuturas kisalu. Kisendi ke ki cliente fiel.",
+    "dep3": "Ice cream kinshi kisangu! Sabores miene ne texuturas kisalu. Kisendi ke ki cliente fiel.",
+    "dep4": "Ice cream kinshi kisangu! Sabores miene ne texuturas kisalu. Kisendi ke ki cliente fiel."
+  },
+  "homepage": {
+    "h3modal": "Kamba kima",
+    "gallery": "Galeria",
+    "description": "Kukuma na kima kiwombo ke kepe na kiambote!",
+    "buttonBlog": "Blogue",
+    "buttonContact": "Kuvandula",
+    "buttonMenu": "Menu",
+    "buttonCart": "Kaxilumbu",
+    "terms": "Kuwena kima na itala virtual, o lenda kuza na kuntunu ki 'termos de uso' na 'políticas de privacidade'.",
+    "footer": "Kudi programá Suélio Armando JS na Xtreme Programming"
+  },
+
+  "orderpage": {
+    "h3menu": "Kalunga ia ku sumba",
+    "h2order": "Ungi ua kima ki kuka",
+    "sabores": "Mbandu",
+    "pagamento": "Kubha",
+    "adicionar": "Tiana mbandu",
+    "remover": "Katula mbandu",
+    "h2encomendar": "Koka Ngolo",
+    "h2selectMethod": "Sanga njila ia kubha",
+    "money": "Mbiji",
+    "express": "Multicaixa Express", 
+    "tpa": "TPA - Mu ndenge",
+    "placeholderName": "Jina",
+    "placeholderNumber": "Kimbangu (+244)",
+    "placeholderPaymentMethod": "Njila ia kubha",
+    "placeholderCityOrNeighborhood": "Mbanza mba kilombo",
+    "placeholderLandmark": "Kidimu kia ku sanga",
+    "send": "Tuma",
+    "reset": "Katula yonso",
+    "modalSend": "Njimbu tua tumina kiambote",
+    "modalSendh3": "Mbondo ia dikota:",
+    "modalSendP": "Ku lemba ku bika kiavulu kisakidilu kia ku mona kisika kia telefone kiaku phala ku mona kiambote kisika ki tua kuenda na kima ki ua koka kia konda.",
+    "modalSendButton": "Fatura ya dijital",
+    "modalValidation": "Omu mbote u tua bhanga uê u bhingi"
+}
+}
+
