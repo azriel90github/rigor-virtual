@@ -1,11 +1,11 @@
-name: italala-js-server
+name: rigor-js-server
 
 services:
   pg:
     image: bitnami/postgresql:17.0.0
     ports:
-      - '5432:5432'
+      - '5433:5433'
     environment:
-      - POSTGRES_USER=docker-italala
-      - POSTGRES_PASSWORD=dockeritalala
-      - POSTGRES_DB=italala
+      - POSTGRES_USER=docker-rigor
+      - POSTGRES_PASSWORD=rigor
+      - POSTGRES_DB=rigor
