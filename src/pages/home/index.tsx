@@ -1,10 +1,12 @@
-import { Library, PersonStanding, Rss, ShoppingCart, SquareChartGantt, UserRoundCog } from "lucide-react";
+import { Library, PersonStanding, Rss, ShoppingCart, SquareChartGantt, 
+	//UserRoundCog 
+	} from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { LanguageModal } from "../../components/modal/language-modal";
-import { ProfileModal } from "../../components/modal/profile-modal";
+//import { LanguageModal } from "../../components/modal/language-modal";
+//import { ProfileModal } from "../../components/modal/profile-modal";
 //import { AccountButton } from "../../components/buttons/account-button";
 import { ContactModal } from "../../components/modal/contact-modal";
-import { GalleryModal } from "../../components/modal/gallery-modal";
+//import { GalleryModal } from "../../components/modal/gallery-modal";
 import { useTranslation } from 'react-i18next';
 
 export function HomePage() {
@@ -33,10 +35,14 @@ export function HomePage() {
 
 	return (
 		<div>
-			<div className="flex items-center py-3 px-3 justify-between">
+			{/**
+			 *
+			 * <div className="flex items-center py-3 px-3 justify-between">
 				<GalleryModal />
 				<LanguageModal />
 			</div>
+			 */}
+
 			<div className="mainHome h-screen w-full flex items-center justify-center">
 				<div className="max-w-3xl w-full px-6 text-center space-y-10">
 					<div className="flex flex-col items-center gap-4">
@@ -50,7 +56,7 @@ export function HomePage() {
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 							<button
 								onClick={blogPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-buttonColor hover:bg-colorHover hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">{t('homepage.buttonBlog')}</p>
 								<Rss className="size-6" />
@@ -61,7 +67,7 @@ export function HomePage() {
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 							<button
 								onClick={menuPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-buttonColor hover:bg-colorHover hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">{t('homepage.buttonMenu')}</p>
 								{/*
@@ -73,21 +79,21 @@ export function HomePage() {
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 							<button
 								onClick={orderPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-buttonColor hover:bg-colorHover hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">{t('homepage.buttonCart')}</p>
 								<ShoppingCart className="size-6" />
 							</button>
 							<button type="button"
 								onClick={LibraryPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-buttonColor hover:bg-colorHover hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">Biblioteca</p>
 								<Library className="size-6" />
 							</button>
 							<button type="button"
 								onClick={AccessibilityPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-buttonColor hover:bg-colorHover hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">Acessibilidade</p>
 								<PersonStanding className="size-6" />
@@ -99,13 +105,15 @@ export function HomePage() {
 					</p>
 				</div>
 			</div>
-			<p className="px-3 py-3 flex items-center justify-between text-1xl text-colorText1">
+			{/**
+			 * <p className="px-3 py-3 flex items-center justify-between text-1xl text-colorText1">
 				<ProfileModal />
 				<a href="https://portofolio-perfil.vercel.app/" target="_blank"  rel="noreferrer" >
 					<UserRoundCog className="mr-2 size-7" />
 				</a>
-				
 			</p>
+			 * 
+			 */}
 		</div>
 	);
 }
