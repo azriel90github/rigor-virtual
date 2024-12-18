@@ -41,7 +41,7 @@ export function ContactModal() {
 		<>
 			<button
 				type="button"
-				className="accountButton border-2 border-slate-600 px-8 py-4 w-80 flex items-center justify-between bg-slate-300 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
+				className="accountButton border-2 border-slate-600 flex items-center justify-between w-80 bg-slate-500 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:slate-300  hover:bg-slate-700 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 				onClick={openContactModal}
 			>
 				<p className="text-1xl font-normal">{t('homepage.buttonContact')}</p>
