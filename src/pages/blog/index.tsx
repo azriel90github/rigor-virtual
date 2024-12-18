@@ -57,7 +57,7 @@ export function BlogPage() {
 	return (
 		<div>
 			<div
-				className={`border-b-2 border-colorInput h-20 shadow-shape bg-searchColor text-buttonColor flex flex-wrap items-center justify-around font-medium text-xl ${
+				className={`h-20 shadow-shape bg-slate-500 text-slate-950 flex flex-wrap items-center justify-around font-medium text-xl ${
 					isScrolled ? "-translate-y-10" : "translate-y-0"
 				}`}
 			>
@@ -74,7 +74,7 @@ export function BlogPage() {
 				</div>
 				<div className="flex items-center justify-between">
 					{/*Social*/}
-					<div className="flex gap-1 text-buttonColor">
+					<div className="flex gap-1 text-slate-950">
 						{/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
 						<a href="#">
 							<Instagram className="size-6" />
@@ -103,7 +103,7 @@ export function BlogPage() {
 				<div className="flex flex-wrap gap-2 mb-44">
 					<div>
 						<div className="w-10/12 flex flex-col gap-4 mx-auto">
-							<h1 className="text-5xl leading-tight flex items-center justify-between text-buttonColor py-2 mt-14 mb-1 font-normal">
+							<h1 className="text-5xl leading-tight flex items-center justify-between text-slate-900 py-2 mt-14 mb-1 font-normal">
 								{t('blogpage.h2')}
 								<p>
 									
@@ -113,13 +113,13 @@ export function BlogPage() {
 
 							<div className="homeBlogue flex gap-10">
 								<p className="flex flex-col leading-loose">
-									<p className="text-lg mb-5 text-zinc-300">
+									<p className="text-lg mb-5 text-slate-950">
 										{t('blogpage.par1')}
 									</p>
-									<p className="text-lg mb-5 text-zinc-300">
+									<p className="text-lg mb-5 text-slate-950">
 										{t('blogpage.par2')}
 									</p>
-									<p className="text-lg mb-5 text-zinc-300">
+									<p className="text-lg mb-5 text-slate-950">
 										{t('blogpage.par3')}
 									</p>
 								</p>
@@ -129,14 +129,14 @@ export function BlogPage() {
 										src="/perfis-blog/perfil_2.jpg"
 										alt=""
 									/>
-									<aside className="text-buttonColor">"Nosso CEO, Cunha Shombossi, liderando com visão, inovação e determinação..."</aside>
+									<aside className="text-slate-900">"Nosso CEO, Cunha Shombossi, liderando com visão, inovação e determinação..."</aside>
 								</p>
 							</div>
 						</div>
 					</div>
 
 					<div className="w-10/12 flex flex-col mx-auto pt-5 gap-4">
-						<h1 className="text-5xl flex justify-between text-buttonColor py-5 mt-3 font-normal">
+						<h1 className="text-5xl flex justify-between text-slate-900 py-5 mt-3 font-normal">
 							{t('blogpage.h3')}
 							
 						</h1>
@@ -150,15 +150,15 @@ export function BlogPage() {
 									/>
 								</div>
 								<div className="">
-									<p className="text-lg text-zinc-300 w-80">
+									<p className="text-lg text-slate-950 w-80">
 										{t('blogpage.dep1')}
 									</p>
 									<div>
-										<span className="text-2xl text-colorText1">
+										<span className="text-2xl text-slate-500">
 											Varstoque Armando
 										</span>
-										<p className="text-buttonColor flex items-center justify-between w-36">
-											<MapPin className="size-5 text-zinc-300" />
+										<p className="text-slate-600 flex items-center justify-between w-36">
+											<MapPin className="size-5 text-slate-900" />
 											Samba, Luanda
 										</p>
 									</div>
@@ -257,7 +257,7 @@ export function BlogPage() {
 			</div>
 			{/* Rodapé que aparece após rolagem */}*{" "}
 			<footer
-				className={`queryFooterBlog flex py-3 gap-3 items-center flex-wrap justify-around fixed bottom-0 left-0 w-full transition-transform duration-500 ease-in-out border-t-2 border-colorInput bg-searchColor ${
+				className={`queryFooterBlog flex py-3 gap-3 items-center flex-wrap justify-around fixed bottom-0 left-0 w-full transition-transform duration-500 ease-in-out bg-slate-500 ${
 					isScrolled ? "translate-y-0" : "translate-y-full"
 				}`}
 			>

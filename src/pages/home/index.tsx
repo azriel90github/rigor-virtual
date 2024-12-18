@@ -59,7 +59,7 @@ export function HomePage() {
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 							<button
 								onClick={blogPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton border-2 border-slate-600 flex items-center justify-between w-80 bg-slate-500 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:slate-300  hover:bg-slate-700 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">{t('homepage.buttonBlog')}</p>
 								<Rss className="size-6" />
@@ -69,7 +69,7 @@ export function HomePage() {
 
 							<button type="button"
 								onClick={AccessibilityPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton border-2 border-slate-600 flex items-center justify-between w-80 bg-slate-500 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:slate-300  hover:bg-slate-700 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">Serviços</p>
 								<PersonStanding className="size-6" />
@@ -78,7 +78,7 @@ export function HomePage() {
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 							<button
 								onClick={menuPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton border-2 border-slate-600 flex items-center justify-between w-80 bg-slate-500 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:slate-300  hover:bg-slate-700 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">{t('homepage.buttonMenu')}</p>
 								{/*
@@ -90,14 +90,14 @@ export function HomePage() {
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 							<button
 								onClick={orderPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton border-2 border-slate-600 flex items-center justify-between w-80 bg-slate-500 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-700 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">{t('homepage.buttonCart')}</p>
 								<ShoppingCart className="size-6" />
 							</button>
 							<button type="button"
 								onClick={LibraryPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
+								className="accountButton border-2 border-slate-600 flex items-center justify-between w-80 bg-slate-500 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:slate-300  hover:bg-slate-700 hover:text-zinc-200 transition duration-400 font-medium text-xl"
 							>
 								<p className="text-1xl font-normal">Biblioteca</p>
 								<Library className="size-6" />
@@ -111,7 +111,7 @@ export function HomePage() {
 			</div>
 			<p className="px-3 py-3 mb-2 text-center font-medium text-1xl text-slate-900">
 				<a href="https://portofolio-perfil.vercel.app/" target="_blank"  rel="noreferrer" >
-					Criado por Suélio Armando Programador Full Stack
+					Por Suélio Armando Programador Full Stack
 				</a>
 			</p>
 			{/**

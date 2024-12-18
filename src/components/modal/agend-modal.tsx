@@ -29,7 +29,7 @@ export function AgendModal() {
       <button
         type="button"
         onClick={openAgendModal}
-        className="agendButton flex items-center justify-between w-72 hover:bg-slate-500 hover:text-zinc-200 shadow-shape bg- bg-slate-300 transition duration-400 text-slate-950 rounded-2xl px-7 py-3.5"
+        className="agendButton flex items-center justify-between w-72 hover:bg-slate-500 hover:text-zinc-200 shadow-shape bg- bg-slate-700 transition duration-400 text-zinc-100 rounded-2xl px-7 py-3.5"
       >
         <div>{t('homepage.gallery')}</div>
         <div>
