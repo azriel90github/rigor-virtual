@@ -56,12 +56,12 @@ export function ContactModal() {
 						{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 						<div
 							onClick={() => setIsContactModalOpen(false)}
-							className="w-[640px] rounded-xl py-5 px-6 bg-colorFundo"
+							className="w-[640px] rounded-xl py-5 px-6 bg-slate-500"
 						>
 							{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 							<div
 								onClick={(e) => e.stopPropagation()}
-								className="text-buttonColor font-medium"
+								className="text-slate-950 font-medium"
 							>
 								<div className="flex items-center justify-between text-xl ml-1">
 									{t('modal.modalContact.title')}
@@ -72,7 +72,7 @@ export function ContactModal() {
 								<h3 className="flex mx-2 text-lx">Número</h3>
                 <button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
 										<p className="text-zinc-300">Africel - 959 261 926</p>
@@ -80,7 +80,7 @@ export function ContactModal() {
 									</button>
 									<button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
 										<p className="text-zinc-300">Unitel - 929 261 926</p>
@@ -89,7 +89,7 @@ export function ContactModal() {
 									<h3 className="flex mx-2 text-lx">Social</h3>
 									<button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
                     <p className="text-zinc-300">WhatsApp</p>
@@ -97,7 +97,7 @@ export function ContactModal() {
 									</button>
 									<button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
                     <p className="text-zinc-300">Twitter</p>
@@ -105,7 +105,7 @@ export function ContactModal() {
 									</button>
 									<button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
 										<p className="text-zinc-300">Instagram</p>
@@ -113,7 +113,7 @@ export function ContactModal() {
 									</button>
 									<button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
                     <p className="text-zinc-300">Facebook</p>
@@ -121,7 +121,7 @@ export function ContactModal() {
 									</button>
 									<button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
                     <p className="text-zinc-300">YouTube</p>
@@ -130,7 +130,7 @@ export function ContactModal() {
 									<h3 className="flex mx-2 text-lx">Email</h3>
 									<button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
                     <p className="text-zinc-300">azrielgithub@gmail.com</p>
@@ -139,7 +139,7 @@ export function ContactModal() {
 
 									<button
 										type="button"
-										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-buttonColor bg-searchColorInput flex items-center justify-between"
+										className="py-3 px-5 outline-none rounded-xl transition duration-400 hover:text-zinc-300 hover:bg-slate-800 bg-slate-600 flex items-center justify-between"
 										onClick={() => handleSelectOption("")}
 									>
                     <p className="text-zinc-300">azrielmoreira@gmail.com</p>
