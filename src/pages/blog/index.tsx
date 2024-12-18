@@ -135,13 +135,13 @@ export function BlogPage() {
 						</div>
 					</div>
 
-					<div className="w-10/12 flex flex-col mx-auto pt-5 gap-4">
-						<h1 className="text-5xl flex justify-between text-slate-900 py-5 mt-3 font-normal">
+					<div className="w-10/12 flex flex-col mx-auto pt-5 gap-5">
+						<h1 className="text-5xl flex mb-3 justify-between text-slate-900 py-5 mt-3 font-normal">
 							{t('blogpage.h3')}
 							
 						</h1>
-						<div className="flex flex-wrap gap-7">
-							<figure className="flex flex-wrap gap-4">
+						<div className="flex mb-10 flex-wrap gap-7">
+							<figure className="flex flex-wrap gap-8">
 								<div className="">
 									<img
 										className="w-32 h-32 rounded-full"
@@ -149,22 +149,22 @@ export function BlogPage() {
 										alt=""
 									/>
 								</div>
-								<div className="">
-									<p className="text-lg text-slate-950 w-80">
+								<div className="flex flex-col gap-2">
+									<p className="text-lg text-slate-900 w-80">
 										{t('blogpage.dep1')}
 									</p>
 									<div>
-										<span className="text-2xl text-slate-500">
+										<span className="text-2xl text-slate-800">
 											Varstoque Armando
 										</span>
-										<p className="text-slate-600 flex items-center justify-between w-36">
-											<MapPin className="size-5 text-slate-900" />
+										<p className="text-slate-700 flex items-center justify-between w-36">
+											<MapPin className="size-5 text-slate-950" />
 											Samba, Luanda
 										</p>
 									</div>
 								</div>
 							</figure>
-							<figure className="flex flex-wrap gap-4">
+							<figure className="flex flex-wrap gap-8">
 								<div className="">
 									<img
 										className="w-32 h-32 rounded-full"
@@ -172,22 +172,22 @@ export function BlogPage() {
 										alt=""
 									/>
 								</div>
-								<div className="">
-									<p className="text-lg text-zinc-300 w-80">
+								<div className="flex flex-col gap-2">
+									<p className="text-lg text-slate-900 w-80">
 										{t('blogpage.dep2')}
 									</p>
 									<div>
-										<span className="text-2xl text-colorText1">
+										<span className="text-2xl text-slate-800">
 											Cunha Chombossi
 										</span>
-										<p className="text-buttonColor flex items-center justify-between w-36">
-											<MapPin className="size-5 text-zinc-300" />
+										<p className="text-slate-700 flex items-center justify-between w-36">
+											<MapPin className="size-5 text-slate-950" />
 											Samba, Luanda
 										</p>
 									</div>
 								</div>
 							</figure>
-							<figure className="flex flex-wrap gap-4">
+							<figure className="flex flex-wrap gap-8">
 								<div className="">
 									<img
 										className="w-32 h-32 rounded-full"
@@ -195,22 +195,22 @@ export function BlogPage() {
 										alt=""
 									/>
 								</div>
-								<div className="">
-									<p className="text-lg text-zinc-300 w-80">
+								<div className="flex flex-col gap-2">
+									<p className="text-lg text-slate-900 w-80">
 										{t('blogpage.dep3')}
 									</p>
 									<div>
-										<span className="text-2xl text-colorText1">
+										<span className="text-2xl text-slate-800">
 											Suélio Armando
 										</span>
-										<p className="text-buttonColor flex items-center justify-between w-36">
-											<MapPin className="size-5 text-zinc-300" />
+										<p className="text-slate-700 flex items-center justify-between w-36">
+											<MapPin className="size-5 text-slate-950" />
 											Samba, Luanda
 										</p>
 									</div>
 								</div>
 							</figure>
-							<figure className="flex flex-wrap gap-4">
+							<figure className="flex flex-wrap gap-8">
 								<div className="">
 									<img
 										className="w-32 h-32 rounded-full"
@@ -218,24 +218,26 @@ export function BlogPage() {
 										alt=""
 									/>
 								</div>
-								<div className="">
-									<p className="text-lg text-zinc-300 w-80">
+								<div className="flex flex-col gap-2">
+									<p className="text-lg text-slate-900 w-80">
 										{t('blogpage.dep4')}
 									</p>
 									<div>
-										<span className="text-2xl text-colorText1">Isabel Tatiana</span>
-										<p className="text-buttonColor flex items-center justify-between w-36">
-											<MapPin className="size-5 text-zinc-300" />
+										<span className="text-2xl text-slate-800">
+											Isabel Tatiana
+										</span>
+										<p className="text-slate-700 flex items-center justify-between w-36">
+											<MapPin className="size-5 text-slate-950" />
 											Samba, Luanda
 										</p>
 									</div>
 								</div>
 							</figure>
 						</div>
-						<h1 className="text-5xl flex justify-between text-buttonColor py-5 mt-3 font-normal">
+						<h1 className="text-5xl flex justify-between text-slate-900 py-5 mt-3 font-normal">
 							Eventos
 						</h1>
-							<p className="text-lg mb-4 text-zinc-300">
+							<p className="text-lg mb-4 text-slate-950">
 								{t('blogpage.par3')}
 							</p>
 					</div>
@@ -255,7 +257,7 @@ export function BlogPage() {
 
 				</div>
 			</div>
-			{/* Rodapé que aparece após rolagem */}*{" "}
+			{/* Rodapé que aparece após rolagem */}{" "}
 			<footer
 				className={`queryFooterBlog flex py-3 gap-3 items-center flex-wrap justify-around fixed bottom-0 left-0 w-full transition-transform duration-500 ease-in-out bg-slate-500 ${
 					isScrolled ? "translate-y-0" : "translate-y-full"
@@ -263,7 +265,7 @@ export function BlogPage() {
 			>
 
 				{/** <ProfileModal /> */}
-				<button type="button" className="flex items-center gap-3 text-buttonColor" onClick={homePage}>
+				<button type="button" className="flex items-center gap-3 text-slate-950" onClick={homePage}>
 					<ArrowLeft className="size-6" />
 					<p className="text-2xl font-normal">
 						<House />
