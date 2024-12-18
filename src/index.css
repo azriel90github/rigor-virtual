@@ -19,6 +19,10 @@
 	
 @media (max-width: 768px) {
 
+	.agendButton {
+		width: 100%;
+	}
+
 	.paymentMobile {
 		width: 100%;
 	}

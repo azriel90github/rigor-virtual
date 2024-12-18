@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 //import { ProfileModal } from "../../components/modal/profile-modal";
 //import { AccountButton } from "../../components/buttons/account-button";
 import { ContactModal } from "../../components/modal/contact-modal";
-//import { GalleryModal } from "../../components/modal/gallery-modal";
 import { useTranslation } from 'react-i18next';
+import { AgendModal } from "../../components/modal/agend-modal";
 
 export function HomePage() {
 	const { t } = useTranslation();
@@ -35,6 +35,9 @@ export function HomePage() {
 
 	return (
 		<div>
+			<div className="flex items-center py-3 px-3 justify-between">
+				<AgendModal />
+			</div>
 			{/**
 			 *
 			 * <div className="flex items-center py-3 px-3 justify-between">
@@ -64,6 +67,14 @@ export function HomePage() {
 
 							<ContactModal />
 
+							<button type="button"
+								onClick={AccessibilityPage}
+								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
+							>
+								<p className="text-1xl font-normal">Serviços</p>
+								<PersonStanding className="size-6" />
+							</button>
+
 							{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 							<button
 								onClick={menuPage}
@@ -91,13 +102,6 @@ export function HomePage() {
 								<p className="text-1xl font-normal">Biblioteca</p>
 								<Library className="size-6" />
 							</button>
-							<button type="button"
-								onClick={AccessibilityPage}
-								className="accountButton flex items-center justify-between w-80 bg-slate-300 px-8 py-4 rounded-full shadow-shape text-slate-950 hover:bg-slate-500 hover:text-zinc-200 transition duration-400 font-medium text-xl"
-							>
-								<p className="text-1xl font-normal">Acessibilidade</p>
-								<PersonStanding className="size-6" />
-							</button>
 						</div>
 					</div>
 					<p className="text-lg text-slate-900 font-normal">
@@ -105,6 +109,11 @@ export function HomePage() {
 					</p>
 				</div>
 			</div>
+			<p className="px-3 py-3 mb-2 text-center font-medium text-1xl text-slate-900">
+				<a href="https://portofolio-perfil.vercel.app/" target="_blank"  rel="noreferrer" >
+					Criado por Suélio Armando Programador Full Stack
+				</a>
+			</p>
 			{/**
 			 * <p className="px-3 py-3 flex items-center justify-between text-1xl text-colorText1">
 				<ProfileModal />

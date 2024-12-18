@@ -1,8 +1,8 @@
 import { t } from "i18next";
-import { Handshake, X } from "lucide-react";
+import { CalendarDays, X } from "lucide-react";
 import { useState } from "react";
 
-export function GalleryModal() {
+export function AgendModal() {
 
   function disableScroll() {
     document.body.style.overflow = "hidden";
@@ -12,15 +12,15 @@ export function GalleryModal() {
     document.body.style.overflow = "";
   }
 
-  const [isGalleryModalOpen, setIsGalleryModalOpen] = useState(false);
+  const [isAgendModalOpen, setIsAgendModalOpen] = useState(false);
 
-  function openGalleryModal() {
-    setIsGalleryModalOpen(true);
+  function openAgendModal() {
+    setIsAgendModalOpen(true);
     disableScroll(); // Bloqueia rolagem ao abrir
   }
 
-  function closeGalleryModal() {
-    setIsGalleryModalOpen(false);
+  function closeAgendModal() {
+    setIsAgendModalOpen(false);
     enableScroll(); // Desbloqueia rolagem ao fechar
   }
 
@@ -28,22 +28,22 @@ export function GalleryModal() {
     <>
       <button
         type="button"
-        onClick={openGalleryModal}
-        className="flex items-center justify-between w-72 hover:bg-colorHover hover:text-zinc-100 shadow-shape bg-buttonColor transition duration-400 text-zinc-100 rounded-2xl px-7 py-3.5"
+        onClick={openAgendModal}
+        className="agendButton flex items-center justify-between w-72 hover:bg-slate-500 hover:text-zinc-200 shadow-shape bg- bg-slate-300 transition duration-400 text-slate-950 rounded-2xl px-7 py-3.5"
       >
         <div>{t('homepage.gallery')}</div>
         <div>
-          <Handshake />
+          <CalendarDays />
         </div>
       </button>
       <div>
-        {isGalleryModalOpen && (
+        {isAgendModalOpen && (
           <div  className="fixed inset-0 bg-black/60 flex items-center justify-center">
             <div className="w-full h-full py-5 px-6 bg-colorFundo">
               <div className="flex items-center justify-between text-zinc-200 font-normal text-2xl">
                 {t('modal.modalTerms.title')}
                 <button type="button">
-                  <X onClick={closeGalleryModal} className="size-6 cursor-pointer" />
+                  <X onClick={closeAgendModal} className="size-6 cursor-pointer" />
                 </button>
               </div>
               <div className="">  
