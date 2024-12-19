@@ -41,7 +41,7 @@ export function ServicesPage() {
 	return (
 		<div>
 			<div
-				className={`border-b-2 border-colorInput h-20 shadow-shape bg-searchColor text-buttonColor flex flex-wrap items-center justify-around font-medium text-xl ${
+				className={` h-20 bg-slate-500 text-slate-950 flex flex-wrap items-center justify-around font-medium text-xl ${
 					isScrolled ? "-translate-y-10" : "translate-y-0"
 				}`}
 			>
@@ -63,20 +63,14 @@ export function ServicesPage() {
 				<div className="flex flex-wrap gap-2 mb-44">
 					<div>
 						<div className="w-10/12 leading-loose flex flex-col gap-4 mx-auto">
-							<h1 className="text-4xl flex items-start justify-between text-buttonColor py-2 mt-12 font-normal">
-								Desfrute ao máximo da nossa loja Online
+							<h1 className="text-4xl flex items-start justify-between text-slate-950 py-2 mt-12 font-normal">
+								Solicite nossos serviços
 								<p>
 									{/**<LanguageModal /> */}
 								</p>
 							</h1>
-							<p className="text-lg text-zinc-300">
+							<p className="text-lg text-slate-900">
 								{t('blogpage.par1')}
-							</p>
-							<p className="text-lg text-zinc-300">
-								{t('blogpage.par2')}
-							</p>
-							<p className="text-lg text-zinc-300">
-								{t('blogpage.par3')}
 							</p>
 						</div>
 					</div>
@@ -84,13 +78,13 @@ export function ServicesPage() {
 			</div>
 			
 			<footer
-				className={`queryFooterBlog flex py-3 gap-3 items-center flex-wrap justify-around fixed bottom-0 left-0 w-full transition-transform duration-500 ease-in-out border-t-2 border-colorInput bg-searchColor ${
+				className={`queryFooterBlog flex py-3 gap-3 items-center flex-wrap justify-around fixed bottom-0 left-0 w-full transition-transform duration-500 ease-in-out bg-slate-500 ${
 					isScrolled ? "translate-y-0" : "translate-y-full"
 				}`}
 			>
 
 				{/** <ProfileModal /> */}
-				<button type="button" className="flex items-center gap-3 text-buttonColor" onClick={homePage}>
+				<button type="button" className="flex items-center gap-3 text-slate-950" onClick={homePage}>
 					<ArrowLeft className="size-6" />
 					<p className="text-2xl font-normal">
 						<House />

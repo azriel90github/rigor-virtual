@@ -57,7 +57,7 @@ export function BlogPage() {
 	return (
 		<div>
 			<div
-				className={`h-20 shadow-shape bg-slate-500 text-slate-950 flex flex-wrap items-center justify-around font-medium text-xl ${
+				className={`h-20 bg-slate-500 text-slate-950 flex flex-wrap items-center justify-around font-medium text-xl ${
 					isScrolled ? "-translate-y-10" : "translate-y-0"
 				}`}
 			>
