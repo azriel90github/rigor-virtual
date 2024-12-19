@@ -1,4 +1,4 @@
-import { t } from "i18next";
+//import { t } from "i18next";
 import { ArrowLeft, House } from "lucide-react";
 import { MenuButton } from "../../components/buttons/menu-button";
 import { useNavigate } from "react-router-dom";
@@ -70,7 +70,25 @@ export function ServicesPage() {
 								</p>
 							</h1>
 							<p className="text-lg text-slate-900">
-								{t('blogpage.par1')}
+								<figure className="flex flex-1 bg-slate-500 py-2 px-2">
+									<div>
+										<img className="rounded-2xl w-72" src="/service1.jpg" alt="" />
+									</div>
+									<div>
+										<p>
+											Controle de Pragas Urbanas
+										</p>
+										<p>
+											Dedetização: Eliminação de insetos como baratas, formigas, cupins, moscas, mosquitos, pulgas e percevejos.
+											Desratização: Controle de ratos, camundongos e outras espécies de roedores.
+											Descupinização: Tratamento específico para combater cupins em móveis, estruturas de madeira e construções.
+											{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
+											<button>
+												Solicitar
+											</button>
+										</p>
+									</div>
+								</figure>
 							</p>
 						</div>
 					</div>
