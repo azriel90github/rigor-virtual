@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 
-export function AccessibilityPage() {
+export function ServicesPage() {
 	//Variavél navigate recebendo o useNavigate do react-router-dom
 	const navigate = useNavigate();
 	//Função homePage para navegar da blogPage para a homePage ao clicar no evento onclick{homePage}

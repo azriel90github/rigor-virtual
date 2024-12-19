@@ -3,7 +3,6 @@ import { HomePage } from "./pages/home";
 import { MenuPage } from "./pages/menu";
 import { OrderPage } from "./pages/order";
 import { BlogPage } from "./pages/blog";
-import { AccessibilityPage } from "./pages/accessibility";
 import { LibraryPage } from "./pages/library";
 import { CartProvider } from "./context/CartContext"; // Importando o CartProvider
 import { ImageProvider } from "./context/ImageContext"; // Importando o ImageProvider
@@ -11,6 +10,7 @@ import { InvoiceProvider } from "./context/InvoiceContext"; // Importando o Invo
 import i18n from "./i18n"; // Importação do i18n configurado
 import { I18nextProvider } from "react-i18next";
 import { ProductDetail } from "./pages/ProductDetail";
+import { ServicesPage } from "./pages/services";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/accessibility/:accessibilityId",
-    element: <AccessibilityPage />,
+    element: <ServicesPage />,
   },
   {
     path: "/library/:libraryId",
