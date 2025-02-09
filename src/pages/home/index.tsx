@@ -109,11 +109,6 @@ export function HomePage() {
 					</p>
 				</div>
 			</div>
-			<p className="px-3 py-3 mb-2 text-center font-medium text-1xl text-slate-900">
-				<a href="https://portofolio-perfil.vercel.app/" target="_blank"  rel="noreferrer" >
-					Por Suélio Armando Programador Full Stack
-				</a>
-			</p>
 			{/**
 			 * <p className="px-3 py-3 flex items-center justify-between text-1xl text-colorText1">
 				<ProfileModal />
